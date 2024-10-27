@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Gymshark</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Gymshark Logo" />
+                <span class="logo-title">Gymshark</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#">Programs</a>
+                <a href="#">Shop</a>
+                <a href="#">Events</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="login">Log In</a>
+                <a href="signup.html" class="signup">Sign Up</a>
+            </div>
+            <div class="gymmm">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <input type="checkbox" id="menu-toggle" />
+        </div>
+    </header>
+
+    <main>
+        <section class="sign-up-section">
+            <div class="sign-up-container">
+                <div class="image-container">
+                    <img src="gymsignup.jpg" alt="Sign-Up Image">
+                </div>
+                
+                <div class="form-container">
+                    <h2>Sign Up</h2>
+                    <form>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+        
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+        
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Password">
+        
+                        <div class="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Subscribe to receive exclusive offers and latest news</label>
+                        </div>
+        
+                        <button type="submit">Sign Up</button>
+        
+                        <div class="alt-signup">
+                            <p>or</p>
+                            <div class="social-login">
+                                <button class="google-login">
+                                    <img src="googleicon.png" alt="Google Icon"> Log in with Google
+                                </button>
+                                <button class="apple-login">
+                                    <img src="appleicon.png" alt="Apple Icon"> Log in with Apple
+                                </button>
+                            </div>
+                        </div>
+        
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
